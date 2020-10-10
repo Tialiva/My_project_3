@@ -1,0 +1,72 @@
+body {
+	background-color: black;
+}
+h1	{
+	font-family: chiller;
+	font-size: 	70px;
+	color: aqua;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+p {
+	font-family: brush script std;
+	font-size: 30px;	
+	text-shadow: 1px 1px 2px aqua;
+}
+h2 {
+	color: lightgray;
+	text-align: center;
+}
+
+.bod {
+	background-color: purple;
+}
+.form-control{
+			border-bottom: 3px solid aqua;
+		}
+/*input de MGA*/
+.prix {
+    position: relative;
+    bottom: 33px;
+    float: right;
+    background-color: yellow;
+    color: red;
+}
+/*---*/
+.fontwhite{
+	color: aqua;
+}
+ /*pour le table*/
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+
+}
+.table1{
+	background-color: aqua;
+	border: gray;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+/*---*/
+/*pour le radio*/
+.selectradio{
+	margin-left: 50px;
+}
+.other {
+	font-size: 12px;
+	color: #fff;
+}
+/*color colon for add charge*/
+.colcolor{
+	background-image: linear-gradient(to bottom right, green, aqua);
+}
+/*---*/
+/*color colon for approv*/
+.bordercol{
+	border:1px solid green;
+}

@@ -1,0 +1,94 @@
+<head>
+  <title>Gestion des articles</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+  
+</head>
+<body>
+  <h1>Tongasoa</h1>
+<div class="text-center" style="margin-bottom:0">
+  <p>L'echec n'est pas une erreur,c'est une rectification...</p> 
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 bod">
+      <nav class="navbar navbar-expand-sm bg-red navbar-purple">
+        <a class="navbar-brand fa fa-home" style="font-size: 20px" href="tongasoa.html"> Tongasoa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="gt_apt.html">Gestion des articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gestion des tiers</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" style="margin-top:30px">
+  <div class="row">
+    <div class="col-md-3">
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link " href="gt_apt.html">Gestion de l’approvisionnement :</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="gt_stk.html">Gestion du stock :</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gt_caiss.html">Gestion de la caisse :</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="gt_chg_2.html">Gestion des charges :</a>
+             <form>
+              <input class="selectradio" type="radio" name="gestion" value="gt_1"> <a class="other" href="gt_chg_2.html"> Nouveaux charges</a><br>
+              <input class="selectradio" type="radio" name="gestion" value="gt_2"> <a class="other" href="gt_chg_1.html"> Listes des charges</a> 
+            </form>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-md-9">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 colcolor">
+          <h2 class="mt-2">Liste des charages :</h2>
+            <label class="fontwhite">Référence produit :</label>
+            <input type="text" name="ref"  class="form-control"><br>
+            <label class="fontwhite">Nom du produit :</label>
+            <input type="text" name="prd" class="form-control"><br>
+            <label class="fontwhite">Prix :</label><br>
+            <input type="number" name="prx" class="form-control"><input type="text" name="autre" class="prix" value="MGA" style="text-align: center;" disabled><br>
+            <label class="fontwhite">Quantité :</label>
+            <input type="number" name="qt" class="form-control"><br>
+            <label class="fontwhite">Date :</label>
+            <input type="date" name="date"  class="form-control"><br>
+            <button class="btn btn-success mb-5 "> Ajouter</button>
+            </div>
+           <div class="col-md-2"></div> 
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 mt-6">    
+        <div class="text-center" style="margin-bottom:0"><b> Tialiva_rajarison &#169; 2020</b></div>
+    </div>
+  </div>
+</div>
+
+</body>
